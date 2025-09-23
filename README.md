@@ -1,5 +1,19 @@
 # Northern Lights Air’s Loyalty Programme Effectiveness Analysis
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Key Performance Indicators](#key-performance-indicators)
+- [Data Sources](#data-sources)
+- [Tools Used](#tools-used)
+- [Data Cleaning/Preparation](#data-cleaningpreparation)
+- [Feature Engineering](#feature-engineering)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [Data Analysis & Visualization](#data-analysis--visualization)
+- [Results/Findings](#resultsfindings)
+- [Recommendations](#recommendations)
+- [Limitations](#limitations)
+
 ### Project Overview
 
 This project analyzes Northern Lights Air’s fictional loyalty program to uncover insights on customer retention, cancellations, and promotional impact. Using Excel, Power BI, and statistical techniques, the analysis explores:
@@ -115,8 +129,7 @@ After data cleaning and preprocessing in Excel, all files were imported into Pow
 ### Limitations
 
 1. I had to replace all the negative and missing salaries with median salaries to avoid skewing analysis. They would have affected the accuracy of my conclusions from the analysis          although by using median salaries I had tried to reduce the effect as much as possible.
-2. Due to lack of enrollment channel data for each customers
-
+2. Due to lack of enrollment channel data and age related informations for each customers I had to generate them using Power BI DAX formulas and with the help of generative AI tools.       They would have affected the accuracy of my conclusions from the analysis
 
 
 
