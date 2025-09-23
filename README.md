@@ -50,6 +50,75 @@ EDA involved exploring the airline's data to answer key questions, such as:
 2. What's the distribution of loyalty members across different age groups?
 3. What's the overall retention rate?
 
+### Data Analysis & Visualization
+
+After data cleaning and preprocessing in Excel, all files were imported into Power BI. Leveraging DAX formulas, interactive visualizations, and other advanced Power BI features, three dashboards were developed to comprehensively address the problem statement:
+
+#### 📊 Dashboard 1: Enrolment Trends & Behavioural Insights
+- Purpose: Analyze customer enrolment patterns and behavioural drivers.
+
+- Visualization:
+
+  ![Enrollment Trends   Behavioral Insights](https://github.com/user-attachments/assets/10a870fe-c46c-499c-8af6-ede4ca27b32e)
+
+#### 📊 Dashboard 2: Enrolment Status Analysis (Active vs. Cancelled)
+- Purpose: Understand retention vs. cancellation trends.
+
+- Visualization:
+
+  ![Enrollment Status Analysis Active vs Cancelled](https://github.com/user-attachments/assets/18e964e3-1413-4170-9a9a-032493509045)
+
+#### 📊 Dashboard 3: Loyalty Programme & Effectiveness
+- Purpose: Evaluate the impact of the loyalty programme on customer engagement.
+
+- Visualization:
+
+  ![Loyalty Program   It's Effectiveness](https://github.com/user-attachments/assets/a69e36c4-f340-4fd8-a5f3-5682394dbf72)
+
+### Results/Findings
+
+1. The promotional period (Feb–Apr 2018) successfully boosted Enrolments, indicating strong marketing effectiveness.
+2. A high retention rate (88.16%) among promo-period enrolees suggests that short-term campaigns can lead to long-term loyalty.
+3. Demographic factors such as age and income influenced customer loyalty, with younger and higher-income customers showing greater retention.
+4. Mobile App ,Website channels proved to be the most effective in acquiring and in retaining customers mobile app and  instore are most effective. Instore brings customer with highest average CLV.
+5. Behavioural changes post-Enrolment — such as increased travel frequency and points accumulation — highlighted greater engagement among loyalty members at the same time decline in points redemption rate shows customer feel less rewarded .
+6. Normalized cancellation analysis revealed that absolute cancellations alone do not indicate loyalty strength — city-level performance varied when adjusted for Enrolment volume.
+7. People with low travel frequency have high cancellation rate but at the same time they generate high average CLV may be due to long distance travel so special steps should be taken to keep them retained.
+8. Cancelled Customers actually giving more CLVs than active and in cities like Winnipeg , Sudbury, St.Jhones cancelled people generates more CLVs than average CLV.
+
+### Recommendations
+
+1. Plan better marketing campaigns by learning what worked well and what didn’t.
+
+2. Focus on the best-performing channels (like mobile app or website) to acquire more loyal customers.
+
+3. Introduce tailored offers for different age groups:
+
+   - Younger customers → funny rewards or bonus points for referrals
+
+   - Older customers → simple benefits like priority boarding or early check-in offers
+
+4. Introduce special deals and discounts in states and provinces with high cancellation rates to win back customers.
+
+5. Reward long-term program users with bonuses after 3 or 6 months of membership to reduce cancellation rates.
+
+6. Improve redemption policies for loyal customers, as poor policies may cause lower retention and higher cancellations.
+
+7. Collect feedback from customers who leave the program, using their responses to enhance the program in the future.
+
+8. Test different types of offers across various channels and customer types to identify what works best.
+
+9. Provide personalized rewards for low travel frequency customers who show the highest average CLV: luxury upgrades, bonus points for next bookings, priority access to new services,       and limited-time offers.
+
+10. Monitor key loyalty program metrics regularly to track improvements and overall program performance.
+
+### Limitations
+
+1. I had to replace all the negative and missing salaries with median salaries to avoid skewing analysis. They would have affected the accuracy of my conclusions from the analysis          although by using median salaries I had tried to reduce the effect as much as possible.
+2. Due to lack of enrollment channel data for each customers
+
+
+
 
 
 
