@@ -44,7 +44,7 @@ Contains demographic and loyalty status information.
 Contains formatted date fields and flags for start of year/month/quarter.
 
 ### Tools Used
-- Excel - Data Cleaning, Feature Engineering, Exploratory Data Analysis and Statistical Analysis
+- Excel - Data Cleaning, Feature Engineering, Exploratory Data Analysis 
    - [Download Here](https://www.microsoft.com/en-in/microsoft-365/excel)
 - Power BI - Feature Engineering and Data Visualization
    - [Download Here](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
