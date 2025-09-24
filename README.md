@@ -15,6 +15,7 @@
 - [Limitations](#limitations)
 
 ### Project Overview
+---
 
 This project analyzes Northern Lights Air’s fictional loyalty program to uncover insights on customer retention, cancellations, and promotional impact. Using Excel, Power BI, and statistical techniques, the analysis explores:
 
@@ -31,10 +32,12 @@ This project analyzes Northern Lights Air’s fictional loyalty program to uncov
 The findings highlight key retention drivers, cancellation risks, and campaign success factors, showcasing data-driven decision-making in the competitive airline industry.
 
 ### Key Performance Indicators
+---
 
 <img width="1653" height="813" alt="image" src="https://github.com/user-attachments/assets/4dbf896a-a93c-4202-9f0c-abf688f22c07" />
 
 ### Data Sources
+---
 
 1. Customer Flight Activity: 
 Contains monthly-level flight data for each customer.
@@ -44,27 +47,32 @@ Contains demographic and loyalty status information.
 Contains formatted date fields and flags for start of year/month/quarter.
 
 ### Tools Used
+---
 - Excel - Data Cleaning, Feature Engineering, Exploratory Data Analysis 
    - [Download Here](https://www.microsoft.com/en-in/microsoft-365/excel)
 - Power BI - Feature Engineering and Data Visualization
    - [Download Here](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
 
 ### Data Cleaning/Preparation
+---
 Key data cleaning tasks included:
 - Accurate data types of the fields were assigned.
 - Replaced negative salaries and missing salaries with median values to avoid skewing analysis.
 
 ### Feature Engineering
+---
 
 <img width="1653" height="813" alt="image" src="https://github.com/user-attachments/assets/40398419-f8d9-447f-b870-afa6a83fe5c0" />
 
 ### Exploratory Data Analysis (EDA)
+---
 EDA involved exploring the airline's data to answer key questions, such as:
 1. What's the total number of males and females in our loyalty programme?
 2. What's the distribution of loyalty members across different age groups?
 3. What's the overall retention rate?
 
 ### Data Analysis & Visualization
+---
 
 After data cleaning and preprocessing in Excel, all files were imported into Power BI. Leveraging DAX formulas, interactive visualizations, and other advanced Power BI features, three dashboards were developed to comprehensively address the problem statement:
 
@@ -90,6 +98,7 @@ After data cleaning and preprocessing in Excel, all files were imported into Pow
   ![Loyalty Program   It's Effectiveness](https://github.com/user-attachments/assets/a69e36c4-f340-4fd8-a5f3-5682394dbf72)
 
 ### Results/Findings
+---
 
 1. The promotional period (Feb–Apr 2018) successfully boosted Enrolments, indicating strong marketing effectiveness.
 2. A high retention rate (88.16%) among promo-period enrolees suggests that short-term campaigns can lead to long-term loyalty.
@@ -101,6 +110,7 @@ After data cleaning and preprocessing in Excel, all files were imported into Pow
 8. Cancelled Customers actually giving more CLVs than active and in cities like Winnipeg , Sudbury, St.Jhones cancelled people generates more CLVs than average CLV.
 
 ### Recommendations
+---
 
 1. Plan better marketing campaigns by learning what worked well and what didn’t.
 
@@ -127,6 +137,7 @@ After data cleaning and preprocessing in Excel, all files were imported into Pow
 10. Monitor key loyalty program metrics regularly to track improvements and overall program performance.
 
 ### Limitations
+---
 
 1. I had to replace all the negative and missing salaries with median salaries to avoid skewing analysis. They would have affected the accuracy of my conclusions from the analysis          although by using median salaries I had tried to reduce the effect as much as possible.
 2. Due to lack of enrollment channel data and age related informations for each customers I had to generate them using Power BI DAX formulas and with the help of generative AI tools.       They would have affected the accuracy of my conclusions from the analysis
